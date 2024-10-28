@@ -11,4 +11,5 @@ Pipelines and relevant scripts for:
 - 04.TE_induced_Gene_Duplications_Analysis
 - 05.Assessing_the_Impact_of_TEs_on_Genetic_Functions
 - 06.Lineage_Specific_Feature_Selection
+- 07.Phylogenetic_Analysis
 
