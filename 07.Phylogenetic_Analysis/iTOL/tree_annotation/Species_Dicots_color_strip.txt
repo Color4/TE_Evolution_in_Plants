@@ -1,0 +1,299 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL color_strip1
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES 1
+#maximum width
+STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN 0
+
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH 1
+BORDER_COLOR #000
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL 0
+
+#In colored strip charts, each ID is associated to a color. Color can be specified in hexadecimal, RGB or RGBA notation
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+DATA
+#ID1 value1
+#ID2 value2
+RVKF #7030A0 Solanaceae
+RMDZ #BDD7EE Brassicaceae
+DVYC #BDD7EE Brassicaceae
+GJJQ #BDD7EE Brassicaceae
+OCLT #BDD7EE Brassicaceae
+OZAH #FFC000 Fabaceae
+NJZA #FFC000 Fabaceae
+WLDM #FFC000 Fabaceae
+ABFB #FFC000 Fabaceae
+WPFU #00B0F0 Asteraceae
+VQMB #FFC000 Fabaceae
+FTGF #2F5597 Cucurbitaceae
+ONZJ #BDD7EE Brassicaceae
+MUGB #BDD7EE Brassicaceae
+OXFI #BDD7EE Brassicaceae
+LMJK #BDD7EE Brassicaceae
+OPWS #BDD7EE Brassicaceae
+STTP #FFC000 Fabaceae
+YNYP #BDD7EE Brassicaceae
+CQML #BDD7EE Brassicaceae
+OBDY #BDD7EE Brassicaceae
+VOXW #7030A0 Solanaceae
+YIVI #7030A0 Solanaceae
+MSJP #00B0F0 Asteraceae
+APBP #FFC000 Fabaceae
+WBHX #00B0F0 Asteraceae
+GQNN #00B0F0 Asteraceae
+HOMY #2F5597 Cucurbitaceae
+AVOY #2F5597 Cucurbitaceae
+HFIE #2F5597 Cucurbitaceae
+QTMP #2F5597 Cucurbitaceae
+IORM #2F5597 Cucurbitaceae
+XXGF #2F5597 Cucurbitaceae
+FPED #00B0F0 Asteraceae
+VPHG #00B0F0 Asteraceae
+HXUZ #00B0F0 Asteraceae
+NLGV #BDD7EE Brassicaceae
+SSQB #FF0000 Rosaceae
+VGDM #FFC000 Fabaceae
+LTVI #FFC000 Fabaceae
+QIZU #FFC000 Fabaceae
+DPTQ #00B0F0 Asteraceae
+YIRO #00B0F0 Asteraceae
+EZSP #00B0F0 Asteraceae
+BYSY #FFC000 Fabaceae
+HBJV #FFC000 Fabaceae
+OFOT #FFC000 Fabaceae
+MGTD #7030A0 Solanaceae
+FYUX #7030A0 Solanaceae
+GQTN #FF0000 Rosaceae
+NZAA #FF0000 Rosaceae
+CCJD #FF0000 Rosaceae
+VYRE #FFC000 Fabaceae
+TDHL #7030A0 Solanaceae
+NBMA #7030A0 Solanaceae
+OTBF #7030A0 Solanaceae
+OYYK #FFC000 Fabaceae
+VNCK #FFC000 Fabaceae
+ITWP #548235 Salicaceae
+WZMU #548235 Salicaceae
+HSIM #548235 Salicaceae
+IRCT #548235 Salicaceae
+UXRG #FF0000 Rosaceae
+BBWS #FF0000 Rosaceae
+FQTK #FF0000 Rosaceae
+MYSN #FF0000 Rosaceae
+GFPR #FF0000 Rosaceae
+WAZH #FF0000 Rosaceae
+HUMQ #FF0000 Rosaceae
+BVLD #FF0000 Rosaceae
+DFAU #BDD7EE Brassicaceae
+EZIF #FF0000 Rosaceae
+LZES #FF0000 Rosaceae
+VUQT #548235 Salicaceae
+PGJN #548235 Salicaceae
+HXWU #548235 Salicaceae
+UPWB #548235 Salicaceae
+EFJK #548235 Salicaceae
+FCFN #FFC000 Fabaceae
+SELH #00B0F0 Asteraceae
+GYIM #7030A0 Solanaceae
+CUVU #7030A0 Solanaceae
+BTDG #7030A0 Solanaceae
+FIJW #7030A0 Solanaceae
+QKBL #7030A0 Solanaceae
+EUVA #7030A0 Solanaceae
+UEFE #FFC000 Fabaceae
+OIWR #FFC000 Fabaceae
+ZCPI #00B0F0 Asteraceae
+DLBL #BDD7EE Brassicaceae
+UNZV #FFC000 Fabaceae
+NNNE #FFC000 Fabaceae
+MBFQ #FFC000 Fabaceae
+OAXD #FFC000 Fabaceae
+XAFP #FFC000 Fabaceae
+GLYN #FFC000 Fabaceae
+KNKB #FFC000 Fabaceae
+HYFO #FFC000 Fabaceae
+TITK #FFC000 Fabaceae
+ZQTT #FFC000 Fabaceae
+PVQC #FFC000 Fabaceae
+SKWT #FFC000 Fabaceae
+AETC #FFC000 Fabaceae
+BVTW #FFC000 Fabaceae
+SLLV #FFC000 Fabaceae
+XNJC #FFC000 Fabaceae
+WEHK #FFC000 Fabaceae
+ERFT #FFC000 Fabaceae
+XLNO #FFC000 Fabaceae
+CJNZ #FFC000 Fabaceae
+XTUV #FFC000 Fabaceae
+EFZU #FFC000 Fabaceae
+YPJZ #FFC000 Fabaceae
+ACHI #FFC000 Fabaceae
+AYSF #FFC000 Fabaceae
+GPQZ #FFC000 Fabaceae
+WEYI #FFC000 Fabaceae
+YRTJ #FFC000 Fabaceae
+RNSE #FFC000 Fabaceae
+HTCQ #FFC000 Fabaceae
+HHIA #FFC000 Fabaceae
+BZQY #FFC000 Fabaceae
+GEIO #7030A0 Solanaceae
+HBQS #7030A0 Solanaceae
+BREH #7030A0 Solanaceae
+URKQ #7030A0 Solanaceae
+JSKI #7030A0 Solanaceae
+RWNT #7030A0 Solanaceae
+QDZS #7030A0 Solanaceae
+MYLG #7030A0 Solanaceae
+LEVJ #7030A0 Solanaceae
+XZAC #7030A0 Solanaceae
+VNNO #7030A0 Solanaceae
+VFQU #7030A0 Solanaceae
+AAFX #7030A0 Solanaceae
+BPAV #7030A0 Solanaceae
+LPGS #7030A0 Solanaceae
+NBLN #7030A0 Solanaceae
+KLYK #7030A0 Solanaceae
+LVFA #7030A0 Solanaceae
+ENHM #7030A0 Solanaceae
+ICQQ #7030A0 Solanaceae
+TWME #7030A0 Solanaceae
+EJNG #7030A0 Solanaceae
+ITBG #7030A0 Solanaceae
+VAEY #7030A0 Solanaceae
+HJTW #7030A0 Solanaceae
+AEJK #7030A0 Solanaceae
+VQED #7030A0 Solanaceae
+VNJV #FFC000 Fabaceae
+CARR #FFC000 Fabaceae
+TOGO #FFC000 Fabaceae
+UZST #FFC000 Fabaceae
+ZAFX #FFC000 Fabaceae
+JHPU #FFC000 Fabaceae
+YBYK #FFC000 Fabaceae
+ZOHO #FFC000 Fabaceae
+LHIH #FFC000 Fabaceae
+HLMH #FFC000 Fabaceae
+BZVF #FFC000 Fabaceae
+INOA #FFC000 Fabaceae
+XWXH #FFC000 Fabaceae
+ZHMB #FFC000 Fabaceae
+NGQM #FFC000 Fabaceae
+NHHO #FFC000 Fabaceae
+PTZE #FFC000 Fabaceae
+KDKW #FFC000 Fabaceae
+QPDH #FFC000 Fabaceae
+OIVW #FFC000 Fabaceae
+GPTC #FFC000 Fabaceae
+OEPQ #FFC000 Fabaceae
+VKPI #FFC000 Fabaceae
+NYQP #FFC000 Fabaceae
+UKPM #FFC000 Fabaceae
+RXUV #FFC000 Fabaceae
+XYXD #FFC000 Fabaceae
+KKIW #FFC000 Fabaceae
+DCDE #FFC000 Fabaceae
+WMSM #FFC000 Fabaceae
+YEVS #FFC000 Fabaceae
+XBUE #FFC000 Fabaceae
+LSIM #FFC000 Fabaceae
+NAZA #FFC000 Fabaceae
+SAQA #FFC000 Fabaceae
+ZZXT #BDD7EE Brassicaceae
+VYEH #BDD7EE Brassicaceae
+MQAY #BDD7EE Brassicaceae
+OCRQ #BDD7EE Brassicaceae
+SYOG #BDD7EE Brassicaceae
+SETF #BDD7EE Brassicaceae
+YQEJ #BDD7EE Brassicaceae
+DZWL #BDD7EE Brassicaceae
+MNIP #BDD7EE Brassicaceae
+PZHB #BDD7EE Brassicaceae
+VGAZ #BDD7EE Brassicaceae
+PXZF #BDD7EE Brassicaceae
+LJNZ #BDD7EE Brassicaceae
+KVTM #BDD7EE Brassicaceae
+KMGF #BDD7EE Brassicaceae
+JXZJ #BDD7EE Brassicaceae
+UZBA #BDD7EE Brassicaceae
+TGPT #BDD7EE Brassicaceae
+DWAR #BDD7EE Brassicaceae
+KKQP #BDD7EE Brassicaceae
+YPST #BDD7EE Brassicaceae
+ACXJ #BDD7EE Brassicaceae
+KSLX #BDD7EE Brassicaceae
+CUXB #BDD7EE Brassicaceae
+NEMR #BDD7EE Brassicaceae
+BTLN #BDD7EE Brassicaceae
+HXXY #FF0000 Rosaceae
+XYCJ #BDD7EE Brassicaceae
+EGAK #BDD7EE Brassicaceae
+RYPU #BDD7EE Brassicaceae
+BUNI #BDD7EE Brassicaceae
+KHEI #BDD7EE Brassicaceae
+DEJD #BDD7EE Brassicaceae
+NZPZ #BDD7EE Brassicaceae
+LRRB #BDD7EE Brassicaceae
+FREH #BDD7EE Brassicaceae
+NCYV #BDD7EE Brassicaceae
+OTWO #BDD7EE Brassicaceae
+CFXC #BDD7EE Brassicaceae
+BUJK #BDD7EE Brassicaceae
+GFVD #BDD7EE Brassicaceae
+BYHE #BDD7EE Brassicaceae
+BISW #BDD7EE Brassicaceae
+SYGE #BDD7EE Brassicaceae
+UGYT #BDD7EE Brassicaceae
+NXFH #BDD7EE Brassicaceae
+XYDA #BDD7EE Brassicaceae
+SRHO #BDD7EE Brassicaceae
+GKVB #BDD7EE Brassicaceae
+KTUW #BDD7EE Brassicaceae
+RJCL #BDD7EE Brassicaceae
+ZGPW #BDD7EE Brassicaceae
+AZHP #BDD7EE Brassicaceae
+VNKM #FFC000 Fabaceae
+OVQN #548235 Salicaceae
+YAHR #FF0000 Rosaceae
+SRPU #7030A0 Solanaceae
+SGEQ #BDD7EE Brassicaceae
+PVMR #BDD7EE Brassicaceae
+HDBR #FFC000 Fabaceae
+GASD #7030A0 Solanaceae
+GYNG #2F5597 Cucurbitaceae
+FFIM #FFC000 Fabaceae
+XCMI #FFC000 Fabaceae
+LJXB #FFC000 Fabaceae
+CGCJ #00B0F0 Asteraceae
+ZKTA #FFC000 Fabaceae
+PTFC #FF0000 Rosaceae
+GELV #FFC000 Fabaceae
+DLVS #FF0000 Rosaceae
+JZLG #548235 Salicaceae
+IYJL #548235 Salicaceae
+FGVX #7030A0 Solanaceae
+GBYL #7030A0 Solanaceae
+IGTN #7030A0 Solanaceae
+AUBW #7030A0 Solanaceae
+RYGG #FFC000 Fabaceae
+JVNO #FFC000 Fabaceae

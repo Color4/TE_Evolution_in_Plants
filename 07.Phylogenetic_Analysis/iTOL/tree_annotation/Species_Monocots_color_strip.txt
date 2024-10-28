@@ -1,0 +1,167 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+
+#SEPARATOR TAB
+SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL color_strip1
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES 1
+#maximum width
+STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN 0
+
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH 1
+BORDER_COLOR #000
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL 0
+
+#In colored strip charts, each ID is associated to a color. Color can be specified in hexadecimal, RGB or RGBA notation
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+DATA
+#ID1 value1
+#ID2 value2
+BUKK #d23070 Monocots
+GJNO #d23070 Monocots
+XHDS #F7B89C Poaceae
+DSNR #d23070 Monocots
+MDIY #d23070 Monocots
+TNGJ #F7B89C Poaceae
+BTVR #F7B89C Poaceae
+XFWN #d23070 Monocots
+LOUF #d23070 Monocots
+MOXS #d23070 Monocots
+RUTN #d23070 Monocots
+LITL #d23070 Monocots
+FEMN #d23070 Monocots
+THBL #F7B89C Poaceae
+WZTZ #d23070 Monocots
+GGGH #d23070 Monocots
+PBVW #d23070 Monocots
+ZTOF #F7B89C Poaceae
+VFYF #d23070 Monocots
+WLQV #F7B89C Poaceae
+NRTN #F7B89C Poaceae
+FJWH #F7B89C Poaceae
+AOHR #F7B89C Poaceae
+TIOX #d23070 Monocots
+PHNI #218995 Oryzoideae
+FHSW #F7B89C Poaceae
+KXVR #F7B89C Poaceae
+DSHN #d23070 Monocots
+UFRV #F7B89C Poaceae
+HFBN #218995 Oryzoideae
+SBRZ #218995 Oryzoideae
+TITB #218995 Oryzoideae
+HTGM #218995 Oryzoideae
+WDFN #218995 Oryzoideae
+BNSV #218995 Oryzoideae
+KDJW #218995 Oryzoideae
+OSJB #F7B89C Poaceae
+UOMN #F7B89C Poaceae
+SXLF #F7B89C Poaceae
+KORE #F7B89C Poaceae
+YNMO #F7B89C Poaceae
+OVVX #d23070 Monocots
+SRQU #d23070 Monocots
+AABQ #F7B89C Poaceae
+JYLX #d23070 Monocots
+JIPF #d23070 Monocots
+KMFB #d23070 Monocots
+RMKG #F7B89C Poaceae
+XEVH #F7B89C Poaceae
+QLOM #F7B89C Poaceae
+SNDE #F7B89C Poaceae
+ZQXY #F7B89C Poaceae
+QLTC #d23070 Monocots
+NMFS #d23070 Monocots
+VWYS #F7B89C Poaceae
+HPSE #d23070 Monocots
+TPCW #F7B89C Poaceae
+HOFR #d23070 Monocots
+PXEO #d23070 Monocots
+CYPN #F7B89C Poaceae
+HZOL #F7B89C Poaceae
+DBYQ #F7B89C Poaceae
+CXTN #F7B89C Poaceae
+MVBC #F7B89C Poaceae
+XFGB #F7B89C Poaceae
+LSLZ #F7B89C Poaceae
+XXCC #F7B89C Poaceae
+EBBN #F7B89C Poaceae
+ESOX #F7B89C Poaceae
+DJNL #F7B89C Poaceae
+TDZK #F7B89C Poaceae
+FBAR #F7B89C Poaceae
+LKRG #F7B89C Poaceae
+RUBE #F7B89C Poaceae
+YQXF #F7B89C Poaceae
+MKDL #F7B89C Poaceae
+PRMX #F7B89C Poaceae
+ERRX #F7B89C Poaceae
+PXWS #F7B89C Poaceae
+TIOU #F7B89C Poaceae
+BTJS #F7B89C Poaceae
+VBZT #F7B89C Poaceae
+QHBJ #F7B89C Poaceae
+HWHY #F7B89C Poaceae
+TXEE #F7B89C Poaceae
+XCFZ #F7B89C Poaceae
+FWOE #F7B89C Poaceae
+FIVX #F7B89C Poaceae
+ILWU #3B4CC0 Oryza sativa
+OGXT #3B4CC0 Oryza sativa
+MPZB #3B4CC0 Oryza sativa
+JEVR #218995 Oryzoideae
+LMQO #3B4CC0 Oryza sativa
+BZJI #3B4CC0 Oryza sativa
+FVXP #3B4CC0 Oryza sativa
+THOP #3B4CC0 Oryza sativa
+ZUZJ #3B4CC0 Oryza sativa
+XRZD #3B4CC0 Oryza sativa
+DCPK #3B4CC0 Oryza sativa
+DYLE #3B4CC0 Oryza sativa
+LUHY #3B4CC0 Oryza sativa
+RPTR #3B4CC0 Oryza sativa
+CLYI #3B4CC0 Oryza sativa
+PJFQ #3B4CC0 Oryza sativa
+XQBV #3B4CC0 Oryza sativa
+EDXG #3B4CC0 Oryza sativa
+GOOX #3B4CC0 Oryza sativa
+QKNO #3B4CC0 Oryza sativa
+IVED #218995 Oryzoideae
+JVRQ #3B4CC0 Oryza sativa
+CZHQ #3B4CC0 Oryza sativa
+ARID #218995 Oryzoideae
+BLPB #3B4CC0 Oryza sativa
+ABDF #3B4CC0 Oryza sativa
+VYCW #3B4CC0 Oryza sativa
+TIVW #3B4CC0 Oryza sativa
+YDDI #3B4CC0 Oryza sativa
+BVFO #3B4CC0 Oryza sativa
+DAVU #3B4CC0 Oryza sativa
+RLUJ #3B4CC0 Oryza sativa
+LVDJ #3B4CC0 Oryza sativa
+XDOS #218995 Oryzoideae
+QLPG #F7B89C Poaceae
+KAFX #d23070 Monocots
+GTYE #d23070 Monocots
+KTWR #F7B89C Poaceae
+QQVC #d23070 Monocots
+HXOX #d23070 Monocots
+QWCB #F7B89C Poaceae
+TXNO #F7B89C Poaceae

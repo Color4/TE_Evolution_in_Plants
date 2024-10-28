@@ -1,0 +1,378 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names (displayed in mouseover popups)
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#defined a name for an internal node
+#9606|9031	Metazoa
+
+#change the label for leaf node 9606
+4023	Acer negundo
+4024	Acer saccharum
+4465	Acorus calamus
+55184	Acorus gramineus
+1590841	Actinidia chinensis
+165200	Actinidia eriantha
+13818	Adiantum capillus-veneris
+200361	Aegilops tauschii
+28502	Amaranthus hypochondriacus
+29722	Amaranthus tricolor
+4615	Ananas comosus
+402998	Anisodus acutangulus
+63677	Arabidopsis halleri
+81972	Arabidopsis lyrata
+3702	Arabidopsis thaliana
+50452	Arabis alpina
+130453	Arachis duranensis
+3818	Arachis hypogaea
+130454	Arachis ipaensis
+217475	Arachis stenosperma
+4217	Arctium lappa
+158543	Aristolochia fimbriata
+4498	Avena sativa ot3098
+41875	Bathycoccus prasinos
+167791	Bauhinia variegata
+102211	Benincasa hispida
+3555	Beta vulgaris
+15368	Brachypodium distachyon
+3707	Brassica juncea
+3708	Brassica napus
+109376	Brassica oleracea
+1813537	Brassica rapa ro18
+168488	Buddleja alternifolia
+3821	Cajanus cajan
+90675	Camelina sativa
+1840588	Camellia lanceoleosa
+4442	Camellia sinensis
+4628	Canna indica
+3483	Cannabis sativa female
+264402	Capsella grandiflora
+81985	Capsella rubella
+4072	Capsicum annuum
+33114	Capsicum baccatum
+544730	Carex littledalei
+3649	Carica papaya
+176857	Carpinus fangiana
+32201	Carya illinoinensis
+4058	Catharanthus roseus
+347529	Centaurea solstitialis
+3225	Ceratodon purpureus
+49495	Ceratopteris richardii
+69332	Chara braunii
+63459	Chenopodium quinoa
+3055	Chlamydomonas reinhardtii
+554065	Chlorella variabilis
+1764295	Chloropicon primus
+2769	Chondrus crispus
+114280	Cichorium endivia
+13427	Cichorium intybus
+3654	Citrullus lanatus
+85681	Citrus clementina
+2711	Citrus sinensis
+3014308	Closterium sp. NIES-64
+3014309	Closterium sp. NIES-65
+2315456	Coccomyxa sp. Obi
+248742	Coccomyxa subellipsoidea
+13894	Cocos nucifera
+13443	Coffea arabica
+49390	Coffea canephora
+49369	Coffea eugenioides
+261450	Coptis chinensis
+210143	Corchorus capsularis
+13451	Corylus avellana
+360336	Corymbia citriodora
+3369	Cryptomeria japonica
+3656	Cucumis melo
+3659	Cucumis sativus
+34294	Cucurbita argyrosperma subsp. argyrosperma
+3663	Cucurbita pepo subsp. pepo
+280699	Cyanidioschyzon merolae
+59895	Cynara cardunculus
+4265	Cynara cardunculus var. scolymus
+79200	Daucus carota
+906689	Dendrobium catenatum
+161865	Dendrobium chrysotoxum
+94219	Dendrobium nobile
+3570	Dianthus caryophyllus
+1010633	Digitaria exilis
+55571	Dioscorea alata
+55577	Dioscorea rotundata
+325984	Dioscorea zingiberensis
+55363	Diospyros lotus
+34168	Diphasiastrum complanatum
+168575	Dipteronia dyeriana
+43782	Dipteronia sinensis
+90397	Echinochloa crusgalli
+51953	Elaeis guineensis
+4511	Eleusine coracana subsp. coracana
+38414	Eragrostis curvula
+110835	Eragrostis tef
+72917	Erigeron canadensis
+1862640	Erythroxylum novogranatense
+71139	Eucalyptus grandis
+38846	Euphorbia peplus
+72664	Eutrema salsugineum
+3617	Fagopyrum esculentum
+3494	Ficus carica
+57918	Fragaria vesca subsp. vesca
+38873	Fraxinus excelsior
+56036	Fraxinus pennsylvanica
+130081	Galdieria sulphuraria
+3848	Glycine soja
+29729	Gossypium arboreum
+3635	Gossypium hirsutum
+29730	Gossypium raimondii
+4232	Helianthus annuus
+360622	Heracleum sosnowskyi
+3981	Hevea brasiliensis
+112509	Hordeum vulgare subsp. vulgare
+3486	Humulus lupulus
+253017	Impatiens glandulifera
+35885	Ipomoea triloba
+180498	Jatropha curcas
+2249226	Juglans microcarpa x Juglans regia
+51240	Juglans regia
+13579	Juncus effusus
+63787	Kalanchoe fedtschenkoi
+75948	Lactuca saligna
+4236	Lactuca sativa
+77586	Leersia perrieri
+4006	Linum usitatissimum
+4522	Lolium perenne
+89674	Lolium rigidum
+34305	Lotus japonicus
+3870	Lupinus albus
+3871	Lupinus angustifolius
+112863	Lycium barbarum
+112874	Lycium ferocissimum
+60698	Macadamia integrifolia
+86752	Magnolia sinica
+397392	Malania oleifera
+3750	Malus domestica
+3752	Malus sylvestris
+29780	Mangifera indica
+3983	Manihot esculenta
+3197	Marchantia polymorpha
+3880	Medicago truncatula
+3986	Mercurialis annua
+296587	Micromonas commoda
+38833	Micromonas pusilla
+2812611	Micromonas sp
+4155	Mimulus guttatus TOL
+981085	Morus notabilis
+214687	Musa acuminata
+4432	Nelumbo nucifera
+2788	Neopyropia yezoensis
+49451	Nicotiana attenuata
+4097	Nicotiana tabacum
+210225	Nymphaea colorata
+561372	Nyssa sinensis
+43536	Oldenlandia corymbosa var. corymbosa
+158383	Olea europaea
+1148796	Oropetium thomaeum
+40148	Oryza glumipatula
+39946	Oryza indica
+4528	Oryza longistaminata
+40149	Oryza meridionalis
+4536	Oryza nivara
+4537	Oryza punctata
+4529	Oryza rufipogon
+436017	Ostreococcus lucimarinus CCE9901
+70448	Ostreococcus tauri
+206008	Panicum hallii
+38727	Panicum virgatum
+3469	Papaver somniferum
+158149	Paspalum vaginatum
+586722	Paulownia fortunei
+3435	Persea americana
+33119	Petunia axillaris
+78828	Phalaenopsis equestris
+3885	Phaseolus vulgaris
+42345	Phoenix dactylifera
+38705	Phyllostachys heterocycla
+3218	Physcomitrium patens
+1470871	Picochlorum sp. SENEW3
+3352	Pinus taeda
+434234	Pistacia atlantica
+434235	Pistacia integerrima
+55513	Pistacia vera
+3888	Pisum sativum
+3696	Populus deltoides
+75702	Populus euphratica
+118781	Populus tomentosa
+3694	Populus trichocarpa
+57926	Potentilla anserina
+273540	Protea cynaroides
+42229	Prunus avium
+3755	Prunus dulcis
+102107	Prunus mume
+3760	Prunus persica
+22663	Punica granatum
+225117	Pyrus bretschneideri
+23211	Pyrus communis
+2448454	Pyrus ussuriensis x Pyrus communis
+97700	Quercus lobata
+38942	Quercus robur
+58331	Quercus suber
+3726	Raphanus sativus
+2594499	Rhamnella rubrinervis
+178133	Rhodamnia argentea
+479676	Rhododendron griersonianum
+49168	Rhododendron molle
+118357	Rhododendron simsii
+182163	Rhododendron vialii
+262921	Rhododendron williamsianum
+2022672	Rhynchospora breviuscula
+906938	Rhynchospora pubera
+198213	Rhynchospora tenuis
+3988	Ricinus communis
+74649	Rosa chinensis
+75079	Rubus occidentalis
+62335	Saccharum spontaneum
+1413687	Salix dunnii
+77065	Salix purpurea
+1278906	Salix suchowensis
+889485	Salix udensis
+40686	Salix viminalis
+49212	Salvia hispanica
+226208	Salvia miltiorrhiza
+180675	Salvia splendens
+2742167	Scenedesmus sp. PABB004
+4550	Secale cereale
+88036	Selaginella moellendorffii
+362788	Senna tora
+4182	Sesamum indicum
+4555	Setaria italica
+4556	Setaria viridis
+185202	Smallanthus sonchifolius
+45834	Solanum dulcamara
+3162873	Solanum melongena
+28526	Solanum pennellii
+172797	Solanum stenotomum
+4113	Solanum tuberosum
+4558	Sorghum bicolor
+455371	Spatholobus suberectus
+53036	Sphagnum fallax
+128215	Sphagnum magellanicum
+92480	Sphenostylis stenocarpa
+3562	Spinacia oleracea
+51605	Spirodela intermedia
+29656	Spirodela polyrhiza
+13708	Tagetes erecta
+28532	Tarenaya hassleriana
+54955	Telopea speciosissima
+13715	Tetracentron sinense
+3088	Tetradesmus obliquus
+3641	Theobroma cacao
+13288	Thlaspi arvense
+57577	Trifolium pratense
+3899	Trifolium repens
+458696	Tripterygium wilfordii
+4565	Triticum aestivum
+229202	Vaccinium darrowii
+51239	Vanilla planifolia
+3914	Vigna angularis
+3916	Vigna radiata
+3917	Vigna unguiculata
+96939	Vitis riparia
+29760	Vitis vinifera
+3067	Volvox carteri f. nagariensis
+99658	Xanthoceras sorbifolium
+326968	Ziziphus jujuba
+29655	Zostera marina
+187284	Zostera muelleri
+309978	Zoysia japonica
+38722	Zoysia matrella
+1070856	Zoysia pacifica
+3827	Cicer arietinum CaV2
+4577	Zea mays Zm-B73
+4530	Oryza sativa 9311
+4538	Oryza glaberrima CG14
+39947	Oryza sativa MSU7
+4084	Solanum pimpinellifolium BGV006775
+195583	Solanum lycopersicum var. cerasiforme BGV006865
+4081	Solanum lycopersicum SL5.0
+3847	Glycine max ZH13
+3711	Brassica rapa BRO
+3712	Brassica oleracea 07-DH-33
+36774	Brassica oleracea broccoli
+32224	Eriobotrya japonica
+3816	Abrus precatorius
+3517	Alnus glutinosa
+175694	Andrographis paniculata
+3075	Auxenochlorella protothecoides
+4283	Cornus florida
+66656	Durio zibethinus
+212925	Euphorbia lathyris
+4533	Oryza brachyantha
+29695	Phragmites australis
+3691	Populus nigra
+74645	Rosa rugosa
+219896	Syzygium oleosum
+94328	Zingiber officinale
+1000413	Acer yangbiense
+2759587	Adiantum nelumboides
+243964	Anisodus tanguticus
+38785	Arabidopsis arenosa
+45249	Arabidopsis suecica
+4686	Asparagus officinalis
+3824	Canavalia gladiata
+80379	Capsicum chinense
+252529	Citrullus colocynthis
+43366	Clitoria ternatea
+3830	Crotalaria pallida
+3860	Lathyrus sativus
+586398	Linum trigynum
+63359	Liquidambar formosana
+425828	Lithocarpus litseifolius
+4521	Lolium multiflorum
+119954	Melastoma candidum
+155640	Melia azedarach
+192012	Mikania micrantha
+262757	Morella rubra
+52838	Musa balbisiana
+320322	Musa troglodytarum
+4540	Panicum miliaceum
+3886	Phaseolus coccineus
+36596	Prunus armeniaca
+3891	Psophocarpus tetragonolobus
+3512	Quercus rubra
+32244	Quillaja saponaria
+99300	Rehmannia glutinosa
+59490	Rubus argutus
+2182728	Salix brachista
+2511006	Salix koriyanagi
+3572	Saponaria officinalis
+147425	Solanum bulbocastanum
+4109	Solanum commersonii
+50273	Solanum pinnatisectum
+315347	Solanum verrucosum
+128206	Sphagnum jensenii
+128251	Sphagnum troendelagicum
+152367	Stephania cephalantha
+461633	Stephania japonica
+152371	Stephania yunnanensis
+29808	Taxus chinensis
+236973	Trapa incisa
+22666	Trapa natans
+240449	Urochloa decumbens
+3906	Vicia faba
+3915	Vigna mungo
+103349	Vitis rotundifolia
